@@ -1,49 +1,67 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0px;
-    padding: 200px 0px 0px 500px;
-    background:wheat;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
+
 .xoa{
     clear: both;
 }
-/* hello */
-#maytinh {
-width: 260px;
-padding: 0px 0px 10px 0px;
-border: 2px solid black;
-background-color: turquoise;
 
+#maytinh {
+    width: 305px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: rgb(101, 101, 112);
+    border-radius: 5%;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    
 }
+
 #kk{
    margin-top: 10px;
    margin-bottom: 20px;
    font-weight: bold;
    text-align: center;
+   color: white;
 }
 
 #KQ{
     margin:0px  0px 15px 15px;
     padding: 5px;
-    width: 211px ;
+    width: 265px ;
     text-align: right;
     outline-style: none;
     border: 1px solid black;
+    font-size: 30px;
+    font-family: Gotham Rounded, sans-serif;
 }
+
 .button {
-    margin: 0px 0px 5px 10px;
-    padding: 10px;
+    margin: 0px 5px 5px 10px;
+    padding: 20px;
     float: left;
     text-align: center;
-    width: 30px;
-    color: blue;
-    background-color: cadetblue;
-    border-radius: 50px;
+    width: 20px;
+    background-color: rgba(255, 255, 255, .75);
+    border-radius: 100%;
     font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
 }
+
 .button F{
     margin-left: 0px;
 }
+
 .button:hover{
-    background-color: chartreuse;
+    background-color: rgb(255, 145, 0);
 }
