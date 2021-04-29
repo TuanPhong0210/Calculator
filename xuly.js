@@ -60,13 +60,13 @@ var type = obj.innerHTML; ;//"set" (truyền vào) nội dung mới cho phần t
     type=='7' ||
     type=='8' ||
     type=='9' ||
-    type=='S' ||
+    type=='-/+' ||
     type=='.' )
     {
         console.log(mang_so);
         doi_dau_phep_tinh = false; // xay ra an so se thanh false lien
     // doi dau
-    if( type=='S'){
+    if( type=='-/+'){
         // tru thanh cong
         if(doi_dau){
             doi_dau=false; 
@@ -175,7 +175,7 @@ else{
 // CE
 else if(type=='CE'){
     phim='';
-    ketqua.value =0; 
+    ketqua.value =0;
     dauphay=false;
 }
 //DE

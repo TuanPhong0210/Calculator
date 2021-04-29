@@ -3,10 +3,18 @@ body{
     font-weight: normal;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    /* background: linear-gradient(to right, #00AAFF, #00FF6C);
     display: grid;
     justify-content: center;
-    align-content: center;
+    align-content: center; */
+}
+
+#container{
+    border: 2px solid black;
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
 }
 
 .xoa{
@@ -19,10 +27,10 @@ body{
     border: 2px solid black;
     background-color: rgb(101, 101, 112);
     border-radius: 5%;
-    /* position: absolute;
+    position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
     
 }
 
@@ -41,8 +49,18 @@ body{
     text-align: right;
     outline-style: none;
     border: 1px solid black;
+    color: white;
     font-size: 30px;
     font-family: Gotham Rounded, sans-serif;
+    /*grid-column: 1 / -1;*/
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all; 
 }
 
 .button {
